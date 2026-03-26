@@ -1,3 +1,11 @@
+full_name-(direct PII and drop) directly identifies an individual
+email-(direct PII and drop) Unique identifier
+date_of_birth-(indirect PII and mask) year is enough for analysis
+zip_code -( Indirect PII and Mask)  partial keeps regional insights
+job_title-(Indirect PII and Pseudonymize) low risk if generalized 
+diagnosis_notes-(direct PII and  Pseudonymize) high risk only for personal details we can keep report as it is.
+
+
 import time
 import requests
 import os
